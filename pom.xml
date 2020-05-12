@@ -75,6 +75,9 @@
 					<propertiesUser>
 					<module>${module_to_run}</module>
 					</propertiesUser>-->
+					<propertiesJMeter>
+                    <remote_hosts>DEBUG</remote_hosts>
+                    </propertiesJMeter>
 					<propertiesSystem>
                     <java.rmi.server.hostname>10.128.0.7</java.rmi.server.hostname>
 					<java.rmi.server.localport>60000</java.rmi.server.localport>
