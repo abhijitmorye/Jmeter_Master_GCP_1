@@ -75,6 +75,9 @@
 					<propertiesUser>
 					<module>${module_to_run}</module>
 					</propertiesUser>-->
+					<propertiesSystem>
+                    <java.rmi.server.hostname>35.225.64.151</java.rmi.server.hostname>
+                    </propertiesSystem>
 					 <remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
                      <serverList>10.128.0.6</serverList>
