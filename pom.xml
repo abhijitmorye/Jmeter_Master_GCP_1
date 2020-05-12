@@ -80,7 +80,7 @@
                     </propertiesSystem>
 					 <remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
-                     <serverList>10.128.0.6</serverList>
+                     <serverList>35.224.112.101</serverList>
                      <stopServersAfterTests>true</stopServersAfterTests>
                      </remoteConfig>					
                 </configuration>
