@@ -77,14 +77,14 @@
 					</propertiesUser>-->
 					<jmeterVersion>5.0</jmeterVersion>
 					<propertiesJMeter>
-                    <remote_hosts>10.128.0.6</remote_hosts>
+                    <remote_hosts>10.128.0.6:4000</remote_hosts>
                     </propertiesJMeter>
 					<propertiesSystem>
                     <java.rmi.server.hostname>10.128.0.7</java.rmi.server.hostname>
 					<java.rmi.server.localport>60000</java.rmi.server.localport>
                     </propertiesSystem>
 					             <remoteConfig>
-                                <!-- <startServersBeforeTests>false</startServersBeforeTests> -->
+                                 <startServersBeforeTests>true</startServersBeforeTests>
                                 <!--<serverList>$serverlist</serverList>--> 
                                  <stopServersAfterTests>true</stopServersAfterTests>
                             </remoteConfig>			
