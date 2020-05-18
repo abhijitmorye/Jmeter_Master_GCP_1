@@ -12,12 +12,17 @@
                 <version>2.7.0</version>
                 <configuration>
                     <testResultsTimestamp>false</testResultsTimestamp>
-                    <generateReports>true</generateReports>                       
-                    <propertiesUser>
-                        <A.usercount>${A_usercount}</A.usercount>
+                    <generateReports>true</generateReports>   
+					    <propertiesGlobal>
+						<A.usercount>${A_usercount}</A.usercount>
                         <A.rampup>${A_rampup}</A.rampup>
 						<A.duration>${A_Duration}</A.duration>
-						<!--<B.usercount>${B_usercount}</B.usercount>
+						</propertiesGlobal>
+                    <propertiesUser>
+                        <!--<A.usercount>${A_usercount}</A.usercount>
+                        <A.rampup>${A_rampup}</A.rampup>
+						<A.duration>${A_Duration}</A.duration>
+						<B.usercount>${B_usercount}</B.usercount>
                         <B.rampup>${B_rampup}</B.rampup>
                         <B.duration>${B_Duration}</B.duration>
 						<C.usercount>${C_usercount}</C.usercount>
