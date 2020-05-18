@@ -84,10 +84,9 @@
 					<java.rmi.server.localport>60000</java.rmi.server.localport>
                     </propertiesSystem>
 					             <remoteConfig>
-                                <startAndStopServersForEachTest>true</startAndStopServersForEachTest>
-                                <startServersBeforeTests>true</startServersBeforeTests>
+                                <!-- <startServersBeforeTests>false</startServersBeforeTests> -->
                                 <!--<serverList>$serverlist</serverList>--> 
-                                <!-- <stopServersAfterTests>true</stopServersAfterTests> -->
+                                 <stopServersAfterTests>true</stopServersAfterTests>
                             </remoteConfig>			
                 </configuration>
                 <executions>
