@@ -17,9 +17,8 @@
 						<A.usercount>${A_usercount}</A.usercount>
                         <A.rampup>${A_rampup}</A.rampup>
 						<A.duration>${A_Duration}</A.duration>
-						</propertiesGlobal>
-                    <propertiesUser>
-                        <!--<A.usercount>${A_usercount}</A.usercount>
+						<!--<propertiesUser>
+                        <A.usercount>${A_usercount}</A.usercount>
                         <A.rampup>${A_rampup}</A.rampup>
 						<A.duration>${A_Duration}</A.duration>
 						<B.usercount>${B_usercount}</B.usercount>
@@ -64,7 +63,8 @@
 						<L.usercount>${L_usercount}</L.usercount>
                         <L.rampup>${L_rampup}</L.rampup>
 						<L.rampup_steps>${L_rampup_steps}</L.rampup_steps>
-                        <L.duration>${L_Duration}</L.duration>-->					
+                        <L.duration>${L_Duration}</L.duration>
+						</propertiesUser>-->
                         <jmeter.save.saveservice.output_format>csv</jmeter.save.saveservice.output_format>
                         <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
                         <jmeter.save.saveservice.label>true</jmeter.save.saveservice.label>
@@ -75,7 +75,7 @@
                         <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
                         <jmeter.save.saveservice.thread_name>true</jmeter.save.saveservice.thread_name>
                         <jmeter.save.saveservice.time>true</jmeter.save.saveservice.time>
-                    </propertiesUser>
+					</propertiesGlobal>
                     <!--<propertiesFilesDirectory>${basedir}/src/test/jmeter</propertiesFilesDirectory>
 					<propertiesUser>
 					<module>${module_to_run}</module>
