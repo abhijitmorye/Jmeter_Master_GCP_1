@@ -77,6 +77,7 @@
                         <jmeter.save.saveservice.time>true</jmeter.save.saveservice.time>
 						<jmeter.reportgenerator.report_title>${Run_ID}</jmeter.reportgenerator.report_title>
 					</propertiesGlobal>
+					<propertiesUser><jmeter.reportgenerator.report_title>${Run_ID}</jmeter.reportgenerator.report_title></propertiesUser>
                     <!--<propertiesFilesDirectory>${basedir}/src/test/jmeter</propertiesFilesDirectory>
 					<propertiesUser>
 					<module>${module_to_run}</module>
