@@ -84,7 +84,7 @@
 					</propertiesUser>-->
 					<jmeterVersion>5.0</jmeterVersion>
 					<propertiesJMeter>
-                    <remote_hosts>10.128.0.6</remote_hosts>
+                    <remote_hosts>${Load Injectors}</remote_hosts>
                     </propertiesJMeter>
 					<propertiesSystem>
                     <java.rmi.server.hostname>10.128.0.7</java.rmi.server.hostname>
